@@ -8,7 +8,7 @@ public class Text {
 
     public boolean hasUserEnteredStop() {  //Returnerar true om användaren har skrivit ordet stop.
     return stopEntered;
-}
+} //om ordet stop skrevs
 public void  addLine(String line) {    //Tar emot textrad från användaren
     if (line.equalsIgnoreCase("stop")) { //Slutar läsa om ordet är stop oavsett om det är med stor eller liten bokstav.
         stopEntered = true; // Om ordet "stop" skrevs
@@ -27,7 +27,6 @@ public void  addLine(String line) {    //Tar emot textrad från användaren
         }
     }
     }
-
     public int getLineCount() {   //Returnerar antal rader, tecken, ord och längsta ordet i main metoden.
         return lineCount;
     }
